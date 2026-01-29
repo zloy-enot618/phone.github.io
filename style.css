@@ -1,0 +1,70 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color:beige ; /* Цвет фона веб-страницы */
+    color: #0b3788; /* Цвет основного текста */
+    text-decoration-color: yellow;
+    background-image: url('https://avatars.mds.yandex.net/i?id=0785a9ed0fde68bac543c4f7f5a121e4_l-3071255-images-thumbs&n=13')
+}
+h1 {
+    color: #db2929e5; /* Цвет заголовка */
+    font-size: 100px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    margin-left: 400px;
+    animation: color-change 30s infinite
+}
+
+
+@keyframes color-change {
+    10% {color:#0b3788 ;}
+    20% {color: purple;}
+    30% {color: maroon;}
+    40% {color:#6ae406 ;}
+    50% {color: lime;}
+    60% {color:black;}
+    70% {color: yellow;}
+    80% {color: bisque;}
+    90% {color: red;}
+    100% {color:#7da4ec;}
+}
+
+@keyframes color-change-h2 {
+    10% {color:#0b3788 ;}
+    20% {color: purple;}
+    30% {color: maroon;}
+    40% {color:#6ae406 ;}
+    50% {color: lime;}
+    60% {color:black;}
+    70% {color: yellow;}
+    80% {color: bisque;}
+    90% {color: red;}
+    100% {color:#7da4ec;}
+}
+
+
+h2 {
+    margin-left: 33px;
+    margin-bottom: 15px;
+    font-size: 33px;
+    animation: color-change-h2 30s infinite
+}
+
+
+iframe {
+    margin-left: 33px
+}
+
+
+li {
+    font-size: 40px;
+    animation: color-change 30s infinite;
+    margin-left: 500px
+}
+
+
+h3 {
+    font-size: 50px;
+    animation: color-change-h2 30s infinite;
+    margin-left: 500px
+
+}
